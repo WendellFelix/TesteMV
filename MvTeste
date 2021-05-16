@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class MvTeste {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+
+		String nome, pedido;
+		String cpf;
+
+
+		System.out.println("Informe seu nome: ");
+		nome = scan.next();
+
+		System.out.println("Informe seu CPF: ");
+		cpf = scan.next();
+
+		System.out.println("Informe seu pedido: ");
+		pedido = scan.next();
+
+		System.out.println("Informações do Cliente : "+ "Nome: " + nome  +  "  CPF: " + cpf + " Pedido: " + pedido );
+
+
+
+	}
+
+}
